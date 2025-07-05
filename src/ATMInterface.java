@@ -24,6 +24,7 @@ public class ATMInterface {
                     System.out.print("Enter amount to deposit: ₹");
                     double depositAmount = scanner.nextDouble();
                     atm.deposit(depositAmount);
+                    
                     break;
                 case 3:
                     System.out.print("Enter amount to withdraw: ₹");
